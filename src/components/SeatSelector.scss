@@ -1,0 +1,64 @@
+// src/components/SeatSelector.scss
+.seat-selector {
+  text-align: center;
+
+  select {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .seat-grid {
+    display: inline-block;
+    margin: 10px auto;
+  }
+
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+
+    &.selected {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    &.booked {
+      background-color: #f44336;
+      color: white;
+      cursor: not-allowed;
+    }
+  }
+
+  .seat-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .checkout-btn {
+      padding: 10px 20px;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

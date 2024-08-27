@@ -1,0 +1,10 @@
+.drawer {
+    position: relative;
+    .back-btn {
+        cursor: pointer;
+        width: 17px;
+        height: 17px;
+        margin: 12px;
+        z-index: 41;
+    }
+}

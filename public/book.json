@@ -1,0 +1,35 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "name": "Endgame",
+        "price": 12.99,
+        "rating": 8.4,
+        "totalSeats": 80,
+        "bookedSeats": ["A3", "E5", "C4", "B1"],
+        "thumbNail": "https://w0.peakpx.com/wallpaper/156/622/HD-wallpaper-avengers-endgame-all-characters-superheroes-movies-thumbnail.jpg",
+        "cover": "https://image.cnbcfm.com/api/v1/image/105828186-1554212544565avengers-endgame-poster-og-social-crop.jpg?v=1555618903&w=1920&h=1080"
+      },
+      {
+        "id": 2,
+        "name": "Joker",
+        "price": 10.50,
+        "rating": 8.7,
+        "totalSeats": 60,
+        "bookedSeats": ["A3", "B5", "E5"],
+        "thumbNail": "https://w0.peakpx.com/wallpaper/296/640/HD-wallpaper-joker-art-thumbnail.jpg",
+        "cover": "https://i.pinimg.com/originals/b2/15/1d/b2151d37a351c3af9e9065979fc00129.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Frozen II",
+        "price": 9.99,
+        "rating": 7.1,
+        "totalSeats": 50,
+        "bookedSeats": ["B2", "C3", "D1", "E4"],
+        "thumbNail": "https://i.ytimg.com/vi/treGCE4WKd8/maxresdefault.jpg",
+        "cover": "https://images.booksense.com/images/844/731/9781787731844.jpg"
+      }
+    ]
+  }
+  
